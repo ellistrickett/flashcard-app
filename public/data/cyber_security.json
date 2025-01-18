@@ -1,0 +1,70 @@
+[
+    {
+        "front": "What does the CIA triad stand for in cybersecurity?",
+        "back": "Confidentiality, Integrity, Availability."
+    },
+    {
+        "front": "What is the definition of Confidentiality in the CIA triad?",
+        "back": "The property that information is not made available or disclosed to unauthorized individuals, entities, or processes."
+    },
+    {
+        "front": "What is the definition of Integrity in the CIA triad?",
+        "back": "The property of safeguarding the accuracy and completeness of assets from unauthorized modification."
+    },
+    {
+        "front": "What is the definition of Availability in the CIA triad?",
+        "back": "The property of being accessible and usable upon demand by an authorized entity."
+    },
+    {
+        "front": "What are the four basic categories of cyberattacks?",
+        "back": "Interception, Interruption, Modification, Fabrication."
+    },
+    {
+        "front": "What type of attack primarily affects confidentiality?",
+        "back": "Interception."
+    },
+    {
+        "front": "What type of attack primarily affects integrity?",
+        "back": "Modification or Fabrication."
+    },
+    {
+        "front": "What is a threat in cybersecurity?",
+        "back": "A potential cause of an unwanted incident, which may result in harm to a system or organization."
+    },
+    {
+        "front": "What is a vulnerability in cybersecurity?",
+        "back": "A weakness that allows a threat to be realized or to have an effect on an asset."
+    },
+    {
+        "front": "What is risk in the context of cybersecurity?",
+        "back": "The likelihood that something bad will happen to an asset, combining probability and consequence."
+    },
+    {
+        "front": "What is an information security event?",
+        "back": "An identified occurence of a system, service or network state indicating a possible breach."
+    },
+    {
+        "front": "What is an information security incident?",
+        "back": "A single or series of security events that compromise business operations and information security."
+    },
+    {
+        "front": "What is non-repudiation in digital security?",
+        "back": "Ensuring that a party in a communication cannot deny the authenticity of their signature or message."
+    },
+    {
+        "front": "What is malware?",
+        "back": "Software that uses computer system resources to do things the owner/user does not want or has not agreed to."
+    },
+    {
+        "front": "What is ransomware?",
+        "back": "A type of malware that encrypts a victim's files, demanding payment for decryption."
+    },
+    {
+        "front": "What is social engineering in cybersecurity?",
+        "back": "Manipulating individuals into divulging confidential information or performing actions that compromise security."
+    },
+    {
+        "front": "What is an Advanced Persistent Threat (APT)?",
+        "back": "A prolonged and targeted cyberattack in which an intruder gains access to a network and remains undetected for an extended period."
+    }
+]

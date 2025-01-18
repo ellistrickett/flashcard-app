@@ -1,0 +1,82 @@
+[
+    {
+    "front": "What is virtualization?",
+    "back": "Virtualization is the process of creating a virtual version of something, such as hardware platforms, storage devices, or network resources."
+    },
+    {
+        "front": "What is hypervisor?",
+        "back": "Manages the execution of virtual machines, including resource allocation and isolation."
+    },
+    {
+    "front": "What is the difference between bare-metal and hosted virtualization?",
+    "back": "Bare-metal virtualization offers better performance and is cheaper and easier to set up compared to hosted virtualization."
+    },
+    {
+    "front": "What is server virtualization?",
+    "back": "Server virtualization is the most common type of virtualization. It is used to run multiple virtual machines on a single physical server."
+    },
+    {
+    "front": "What is desktop virtualization?",
+    "back": "Desktop virtualization is used to run virtual desktops on a single physical server, allowing users to access their desktops from anywhere with an internet connection."
+    },
+    {
+    "front": "What is application virtualization?",
+    "back": "Application virtualization is used to package applications so they can run on any device without installation, simplifying software deployment and management."
+    },
+    {
+    "front": "What is storage virtualization?",
+    "back": "Storage virtualization pools multiple storage devices together and presents them as a single logical storage device, improving storage utilization and manageability."
+    },
+    {
+    "front": "What is network virtualization?",
+    "back": "Network virtualization creates virtual networks that are isolated from each other, improving network security and flexibility."
+    },
+    {
+    "front": "List the benefits of virtualization.",
+    "back": "1. Reduced costs. 2. Increased agility. 3. Improved performance. 4. Increased availability. 5. Simplified management."
+    },
+    {
+        "front": "Veritcal Scaling",
+        "back": "Increase size of instance (RAM, CPU etc.)"
+    },
+    {
+        "front": "Horizontal Scaling",
+        "back": "Add more instances. Cloud model implements horizontal scaling."
+    },
+    {
+    "front": "What is cloud computing?",
+    "back": "Cloud computing is a model for enabling on-demand network access to a shared pool of configurable computing resources that can be rapidly provisioned and released with minimal management effort or service provider interaction."
+    },
+    {
+    "front": "What is data-centric security?",
+    "back": "Data-centric security prioritizes the protection of data at a granular level, regardless of where it is stored or processed, especially important in the cloud."
+    },
+    {
+    "front": "List data-centric security approaches.",
+    "back": "1. Data encryption (at rest and in transit). 2. Data access control (e.g., RBAC, ABAC). 3. Data auditing and monitoring. 4. Data loss prevention (DLP)."
+    },
+    {
+    "front": "What is the shared responsibility model in cloud security?",
+    "back": "Cloud service providers (CSPs) are responsible for security of the cloud (infrastructure), while customers are responsible for security in the cloud (data and applications)."
+    },
+    {
+    "front": "How does the service model affect security responsibility?",
+    "back": "Both the cloud service provider and the customer share responsibilities like data encryption, data access control, and data auditing, depending on the service model."
+    },
+    {
+    "front": "What are the key factors for cloud security?",
+    "back": "Access controls, identity management, regulatory compliance, ongoing monitoring (e.g., SAMM), and load balancing."
+    },
+    {
+        "front": "What is load balancing in cloud computing?",
+        "back": "Load balancing distributes incoming network traffic across multiple servers or virtual machines within a pool. This prevents overloading individual servers, improves performance, and ensures high availability."
+    },
+    {
+        "front": "How does load balancing improve performance?",
+        "back": "By directing traffic to the least busy server, load balancing reduces latency (the time it takes for a request to be processed). This results in faster response times for users."
+    },
+    {
+        "front": "What are the main benefits of using load balancing in cloud computing?",
+        "back": "Increased Throughput: Handles more requests simultaneously.\nReduced Latency: Faster response times for users.\nImproved Fault Tolerance: Minimizes downtime due to server failures.\nCost-Effectiveness: Optimizes resource utilization."
+    }
+]

@@ -1,0 +1,70 @@
+[
+    {
+      "front": "What is the difference between a program and a process?",
+      "back": "A program is a passive entity, a set of instructions. A process is an active instance of the program in execution, including the program counter, registers, stack, and data."
+    },
+    {
+      "front": "What are the main process states?",
+      "back": "New, Running, Waiting/Blocked, Ready, and Terminated."
+    },
+    {
+        "front": "What is Batch Mode?",
+        "back": "Batch mode executes jobs in groups without user interaction. Ideal for high throughput tasks like data processing. Not suitable for interactive applications."
+    },
+    {
+        "front": "What is Real-time Mode?",
+        "back": "Real-time mode prioritizes strict deadlines and low latency. Essential for time-critical applications like industrial control systems."
+    },
+    {
+        "front": "What is Server Mode?",
+        "back": "Server mode provides services to other computers on a network. Handles multiple client requests concurrently."
+    },
+    {
+      "front": "What is the purpose of a Process Control Block (PCB)?",
+      "back": "A PCB is located in the OS's Kernal and stores all information required to manage process scheduling, such as process state, program counter, CPU registers, scheduling info, memory management info, accounting info, and I/O status."
+    },
+    {
+      "front": "What are the types of process scheduling queues?",
+      "back": "Job queue (all processes), Ready queue (processes ready to execute), and Device queues (processes waiting for I/O devices)."
+    },
+    {
+        "front": "What is a Job Queue?",
+        "back": "A Job Queue stores all processes in the system, whether they are in RAM or on disk."
+    },
+    {
+        "front": "What is a Ready Queue?",
+        "back": "A Ready Queue stores processes that are in RAM, ready to be executed by the CPU."
+    },
+    {
+        "front": "What is a Device Queue?",
+        "back": "A Device Queue stores processes that are waiting for a specific I/O device to become available."
+    },
+    {
+        "front": "What is Interleaving in Operating Systems?",
+        "back": "Interleaving is a technique where the OS switches between multiple processes quickly, giving each a small amount of time to execute. This creates the illusion of simultaneous execution, maximizing processor utilization."
+    },
+    {
+      "front": "What is CPU utilization in process scheduling?",
+      "back": "CPU utilization aims to keep the CPU as busy as possible to maximize system performance."
+    },
+    {
+      "front": "List common process scheduling algorithms.",
+      "back": "Round-robin, First-come, First-served, Shortest-job-first, Priority, Multilevel queue, and Multilevel feedback queue."
+    },
+    {
+      "front": "What is a thread in the context of process control?",
+      "back": "A thread is a lightweight sub-process that has its own program counter, registers, and stack but can share code, data, and resources with other threads of the same process."
+    },
+    {
+      "front": "What are the advantages of using threads?",
+      "back": "Threads offer responsiveness, resource sharing, efficiency, and concurrency."
+    },
+    {
+      "front": "What is context switching?",
+      "back": "Context switching involves saving the state of the current process and loading the state of the next process. It introduces overhead since the system does no useful work during switching."
+    },
+    {
+      "front": "What are common challenges with threads?",
+      "back": "Context switching overhead, complex kernel implementation, programming difficulty, and resource sharing issues like security risks and fault tolerance."
+    }
+  ]  

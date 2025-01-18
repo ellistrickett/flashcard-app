@@ -1,0 +1,50 @@
+[
+    {
+        "front": "What are the advantages of Bus Topology?",
+        "back": "Low initialization cost, easy installation and expansion, failure of one node doesn't affect others."
+    },
+    {
+        "front": "What are the disadvantages of Bus Topology?",
+        "back": "Backbone cable limitations, entire system failure if backbone fails, slower network due to signal collisions."
+    },
+    {
+        "front": "What are the advantages of Ring Topology?",
+        "back": "Easy network management, minimal collision risk, fault detection is straightforward."
+    },
+    {
+        "front": "What are the disadvantages of Ring Topology?",
+        "back": "Communication delays with many devices, network failure if one device fails, data must travel in a circular path."
+    },
+    {
+        "front": "What are the advantages of Star Topology?",
+        "back": "Easy installation, simple network management, failure of one device doesn't affect others, error detection is easy."
+    },
+    {
+        "front": "What are the disadvantages of Star Topology?",
+        "back": "Entire network fails if central hub fails, high initialization cost, network performance depends on the central hub."
+    },
+    {
+        "front": "What are the advantages of Mesh Topology?",
+        "back": "No data traffic issues, high security, error detection is easy, multiple communication paths, supports simultaneous communication."
+    },
+    {
+        "front": "What are the disadvantages of Mesh Topology?",
+        "back": "High initialization cost, requires many I/O ports, difficult maintenance, complex setup for adding/removing devices."
+    },
+    {
+        "front": "What are the advantages of Tree Topology?",
+        "back": "Simplest topology, easy maintenance and fault identification, scalable, unaffected by individual node failures."
+    },
+    {
+        "front": "What are the disadvantages of Tree Topology?",
+        "back": "Requires large cabling, hub failures affect the network, slower performance with many nodes, complex configuration."
+    },
+    {
+        "front": "What are the advantages of Hybrid Topology?",
+        "back": "Reliable with fault tolerance, flexible for different environments, easy data transfer between network types."
+    },
+    {
+        "front": "What are the disadvantages of Hybrid Topology?",
+        "back": "Difficult to manage, high maintenance costs."
+    }
+]

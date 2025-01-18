@@ -1,0 +1,267 @@
+[
+    {
+      "front": "What is a malicious attack?",
+      "back": "A malicious attack is an attempt to exploit a vulnerability in a computer system or network, often involving malware designed to disrupt, steal, or gain unauthorized access to information."
+    },
+    {
+      "front": "What are the categories of malicious attacks?",
+      "back": "1. Fabrications: Deceptive creation to trick users. \n2. Interceptions: Eavesdropping or redirecting transmissions. \n3. Interruptions: Blocking communication channels. \n4. Modifications: Altering transmitted data."
+    },
+    {
+        "front": "What are the types of Malware attacks?",
+        "back": "0-Day, Exploit, Privilege escalation, Evasion, Blended threat."
+    },
+    {
+      "front": "What is a zero-day attack?",
+      "back": "A zero-day attack exploits an undisclosed vulnerability before it is publicly reported or fixed."
+    },
+    {
+        "front": "What is a exploit attack?",
+        "back": "An exploit is the actualization of a threat by successfully attacking a known vulnerability in a system or software. It can also refer to the malicious software specifically designed to target and exploit that vulnerability."
+    },
+    {
+      "front": "What is privilege escalation?",
+      "back": "Privilege escalation occurs when an attacker gains access to restricted data or systems at a higher security level."
+    },
+    {
+      "front": "What is a blended threat?",
+      "back": "A blended threat is a malware package combining traits of multiple malware types, like Trojans and worms, to exploit various vulnerabilities."
+    },
+    {
+      "front": "What is the difference between active and passive attacks?",
+      "back": "Active attacks involve modifying data streams or gaining unauthorized access, while passive attacks involve eavesdropping without altering the system."
+    },
+    {
+      "front": "What is a birthday attack?",
+      "back": "A birthday attack exploits the hash collision phenomenon to make brute-force attacks on hashed passwords easier."
+    },
+    {
+      "front": "What is a brute-force password attack?",
+      "back": "A brute-force password attack systematically tries all possible combinations of passwords until the correct one is found."
+    },
+    {
+      "front": "What is a dictionary password attack?",
+      "back": "A dictionary attack uses a list of common words as potential passwords, exploiting weak user-selected passwords."
+    },
+    {
+      "front": "What is IP address spoofing?",
+      "back": "IP address spoofing involves disguising a computer as another by falsifying its network address to gain unauthorized access."
+    },
+    {
+      "front": "What is ARP poisoning?",
+      "back": "ARP poisoning (Address Resolution Poisoning) is a spoofing attack where an attacker sends false ARP responses to associate their MAC address with a legitimate device's IP, diverting network traffic."
+    },
+    {
+      "front": "What is session hijacking?",
+      "back": "Session hijacking (such as Man-in-the-middle Attack) is taking control of a session between two machines by impersonating one of them, often disrupting the connection."
+    },
+    {
+        "front": "Man-in-the-middle Attack",
+        "back": "The attacker uses a program to take control of a connection by masquerading as each end of the connection. This allows the attacker to gain access to the messages or modify them before retransmitting."
+      },
+      {
+        "front": "Web Spoofing",
+        "back": "A type of man-in-the-middle attack where the user believes a secure session exists with a particular web server. In reality, the secure connection exists only with the attacker, not the web server. The attacker establishes a secure connection with the web server, acting as an invisible go-between. The attacker passes traffic between the user and the web server, allowing them to trick the user into supplying passwords, credit card info, etc."
+      },
+      {
+        "front": "What is a browser or URL hijacking attack?",
+        "back": "In a browser or URL hijacking attack, the user is directed to a different website than the one they requested. This is typically a fake page created by the attacker. This gives the user the false impression that the attacker has compromised the legitimate website. In reality, the attacker simply rerouted the user's browser to their own site. This attack is also known as typo squatting. Attackers can combine this with phishing techniques to deceive users into revealing sensitive information like passwords."
+      }, 
+      {
+        "front": "What is Session Hijacking?",
+        "back": "Session hijacking involves an attacker taking control of an active connection between two computers. The attacker monitors the connection to determine sequence numbers and then generates traffic mimicking one of the parties to steal the session. Finally, the attacker may overload one of the devices to force the legitimate user out of the session."
+      },
+        {
+          "front": "What is masquerading in cyberattacks?",
+          "back": "Masquerading is when an attacker disguises themselves as another user or entity to gain unauthorized access or perform malicious actions."
+        },
+        {
+          "front": "What is eavesdropping in cybersecurity?",
+          "back": "Eavesdropping is the unauthorized interception of private communication, often to steal sensitive information."
+        },
+        {
+          "front": "What is social engineering?",
+          "back": "Social engineering is a tactic where attackers manipulate individuals into divulging confidential information or performing actions that compromise security."
+        },
+        {
+          "front": "What is phishing?",
+          "back": "Phishing is a social engineering tactic where attackers trick users into providing sensitive information, such as passwords, often via deceptive emails or websites."
+        },
+        {
+          "front": "What is spear phishing?",
+          "back": "Spear phishing is a targeted phishing attack aimed at specific individuals or organizations, often using personalized information to appear legitimate."
+        },
+        {
+            "front": "What is phreaking?",
+            "back": "Phreaking is the act of exploiting or manipulating telephone systems to make free calls or gain unauthorized access."
+        },
+        {
+          "front": "What is pharming?",
+          "back": "Pharming redirects users from legitimate websites to fake ones by 'poisoning' a domain name on the domain name server (DNS) (DNS poisoning) to steal sensitive information, such as login credentials."
+        },
+        {
+            "front": "What is the difference between phishing and pharming?",
+            "back": "Phishing attempts to scam people one at a time with an email or instant message. Pharming enables scammers to target large groups of people at one time through domain spoofing."
+        },
+        {
+          "front": "What is malware?",
+          "back": "Malware is malicious software designed to disrupt, damage, or gain unauthorized access to computer systems."
+        },
+        {
+            "front": "What are infecting programs?",
+            "back": "Viruses and worms"
+        },
+        {
+            "front": "What are hiding programs?",
+            "back": "Trojan horses, Rootkits, Spyware"
+        },
+        {
+          "front": "What are viruses?",
+          "back": "Viruses are a type of malware that attach themselves to files or programs, replicating and spreading when executed."
+        },
+        {
+            "front": "What is the damage routine of a virus (or any malware) called",
+            "back": "The payload."
+        },
+        {
+            "front": "What is a memory resident virus and stealth virus?",
+            "back": "Memory resident viruses insert themselves as part of the operating system or application and can manipulate any file that is executed, copied, moved, or listed. They are also able to manipulate the operating system in order to hide from administrators and inspection tools. These are called stealth viruses."
+        },
+        {
+            "front": "What is a  overwriting virus?",
+            "back": "Virus that overwrites the host code with its own code, destroying much of the original contents."
+        },
+        {
+            "front": "What is a parasitic virus?",
+            "back": "Virus inserts itself into the host code, moving the original code around so the host programming still remains and is executed after the virus code."
+        },
+        {
+            "front": "What is a prepending/appending virus and a mid-infecting viruses?",
+            "back": "Prepending/appending virus copies themselves to the beginning or the end of the file. Mid-infecting viruses copy themselves to the middle."
+        }, 
+        {
+            "front": "What is a boot sector or partition table virus?",
+            "back": "When the modified host code is not a file but a disk boot sector or partition table."
+        }, 
+        {
+            "front": "How does antivirus programs often remove viruses?",
+            "back": "Simply quarintine or delete the infected file."
+        }, 
+        {
+          "front": "What are worms in cybersecurity?",
+          "back": "Worms are standalone malware programs that self-replicate and spread through networks without requiring user interaction. They can be very hard to track and modify the PC so they are always loaded into memory when the machine starts. The worm is always hidden as an attachment to emails."
+        },
+        {
+            "front": "What are the impact of worms?",
+            "back": "Worms consume vast amounts of network and system resources and potentially cause a denial of service outage."
+        },
+        {
+          "front": "What are Trojan horses?",
+          "back": "Trojan horses are malware disguised as legitimate software, tricking users into installing them and enabling unauthorized actions."
+        },
+        {
+            "front": "What is a direct-action Trojan?",
+            "back": "A trojan that doesn't pretend to be a legitimate program."
+        },
+        {
+            "front": "What is a Zombie Trojan?",
+            "back": "A trojan that waits for their originating attackers commands telling them to attack other hosts. The attacker can cause DDoS attack causing the intended victim computer to become overutilized or locks up, denying legitamite connections."
+        },
+        {
+          "front": "What are rootkits?",
+          "back": "Rootkits are a type of malware designed to gain and maintain unauthorized access to a system while hiding their presence. They hide themselves very well and are often have full administration privileges to their infected computer. They can modify parts of the OS to remain undetctable and can exist at any level from computers boot instrustion up to the applications that run on the OS."
+        },
+        {
+            "front": "What are backdoors?",
+            "back": "Similar to Trojans and worms, except they open a 'backdoor' onto a computer, providing a network connection for hackers/malware/viruses/spam. They are unwanted code features commonly found in commercial software products."
+        },
+        {
+            "front": "What are logic bombs?",
+            "back": "Similar to backdoors but sit dormant on a system until a specified condition is met. Any logical condition. Can also exist as stored procedure inside a DB."
+        },
+        {
+          "front": "What is ransomware?",
+          "back": "Ransomware is malware that encrypts a user's files and demands payment for the decryption key. Often Trojans. A quarter pay the ransom and of those 30% dont get their files unlocked. Best protection is have backups offline."
+        },
+        {
+            "front": "What four phases does social engineering consist of?",
+            "back": "Information gathering: To help identify attack vectors and targets. Relationship Development: Develop rapport with the target. Exploitation: Use information and relationship to infiltrate target. Execution: Accomplish ultimate goal."
+        },
+        {
+            "front": "What is a keylogger?",
+            "back": "Records everything typed on a system."
+        },
+        {
+            "front": "What is rogue security software?",
+            "back": "Pretends to be a good program to remove Malware infections, but all the while is the Malware. Often turning off real Anti-Virus software."
+        },
+        {
+          "front": "What was the WannaCry ransomware attack?",
+          "back": "The WannaCry ransomware attack targeted Windows systems, encrypting files and demanding ransom payments, impacting organizations globally."
+        },
+        {
+          "front": "What is a RAM scraper attack?",
+          "back": "A RAM scraper extracts sensitive data, such as credit card information, from a system’s memory during processing. Often targets point-of-sale (POS) systems like cash registers."
+        },
+        {
+          "front": "What are web application attacks?",
+          "back": "Web application attacks exploit vulnerabilities in web apps, such as input fields, to execute malicious actions or steal data."
+        },
+        {
+          "front": "What is browser protection?",
+          "back": "Browser protection uses techniques like blacklists to block malicious websites and defend against malware and phishing scams."
+        },
+        {
+            "front": "How can you defend against Malware?",
+            "back": "Use browser protection tools like blacklists to block access to malicious websites and prevent malware and phishing scams."
+        },
+        {
+            "front": "What is the first line of defense against rogue websites?",
+            "back": "A blacklist that blocks access to known malicious sites."
+        },
+        {
+          "front": "What is the Common Vulnerability Scoring System (CVSS)?",
+          "back": "CVSS is a framework for assessing the severity of security vulnerabilities, providing a standardized score to prioritize fixes."
+        },
+        {
+          "front": "What is adware?",
+          "back": "Adware is software that automatically displays or downloads advertisements, often bundled with other programs."
+        },
+        {
+          "front": "What is spyware?",
+          "back": "Spyware is malware designed to secretly gather information about a user’s activities without their consent."
+        },
+        {
+            "front": "What is a bot?",
+            "back": "Bots are essentially Trojan/worm combinations that attempt to make individual exploited clients a part of a lager malicious network."
+        }, 
+        {
+          "front": "What are botnets?",
+          "back": "Botnets are networks of infected devices controlled by attackers to perform coordinated actions, such as DDoS attacks."
+        },
+        {
+            "front": "What is web application attack?",
+            "back": "Perform intrusive penetration test on public-facing web servers, applications, and back-end databases."
+        },
+        {
+            "front": "What is cross site scripting attack?",
+            "back": "Cross-site scripting (XSS) is a type of cyberattack where malicious scripts are injected into a trusted website or web application. 1  When a user visits the compromised site, their browser unknowingly executes the injected script, allowing the attacker to potentially steal cookies, hijack sessions, or redirect the user to malicious websites."
+        },
+        {
+            "front": "What is arbitrary/remote code exection attacks (web application attack)?",
+            "back": "Having gained priviliged acces, the attacker can run commands on remote systems."
+        },
+        {
+            "front": "What is buffer overflow (web application attack)?",
+            "back": "Attempting to push more data than the buffer can handle, thus creating a condition where further compromises might be possible."
+        },
+        {
+            "front": "What is a client side attack (web application attack)?",
+            "back": "Client-side attacks target vulnerabilities in the software or applications used by the end-user to access the internet. These attacks exploit weaknesses in the client's device, such as a web browser or email client, to gain unauthorized access, steal sensitive information, or install malware."
+        },
+        {
+            "front": "What is cookies and attachments attacks (web application attack)?",
+            "back": "Using cookies or other attachments (or the information they containt) to compromise security."
+        }
+  ]
+  

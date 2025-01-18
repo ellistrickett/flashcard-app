@@ -1,0 +1,142 @@
+[
+    {
+        "front": "What is Network Access Control (NAC)?",
+        "back": "A security solution that governs access to network resources, ensuring that only authorized and compliant devices can access and operate in the network."
+    },
+    {
+        "front": "Why is NAC important for business integration?",
+        "back": "NAC enhances security without disrupting workflow, providing a comprehensive view of all devices on the network for better control and management."
+    },
+    {
+        "front": "How does NAC enhance security?",
+        "back": "It enforces security policies, authenticates users and devices, and dynamically responds to emerging security challenges."
+    },
+    {
+        "front": "What is the difference between authentication and authorization?",
+        "back": "Authentication verifies if a user is genuine, while authorization determines what resources they can access."
+    },
+    {
+        "front": "What are the types of access controls?",
+        "back": "Discretionary Access Control (DAC), Mandatory Access Control (MAC), and Role-Based Access Control (RBAC)."
+    },
+    {
+        "front": "What is Discretionary Access Control (DAC)?",
+        "back": "Access is controlled by the owner of the resource. The owner decides who can access the resource and what operations they can perform."
+    },
+    {
+        "front": "What is Mandatory Access Control (MAC)?",
+        "back": ": Access decisions are enforced by a central authority based on predefined policies, not at the discretion of the object owner. Often used in environments requiring high security."
+    },
+    {
+        "front": "What is Role-Based Access Control (RBAC)?",
+        "back": "Access decisions are based on the roles that individual users have within an organization. It simplifies management by assigning permissions to roles rather than individuals."
+    },
+    {
+        "front": "What is the 'Need to Know' principle in access control?",
+        "back": "Users are granted access only to resources they need for their job functions."
+    },
+    {
+        "front": "What is the 'Least privilege' principle in access control?",
+        "back": "Users are granted only those access rights necessary to perform their job functions.."
+    },
+    {
+        "front": "What is the 'Separation of duties' principle in access control?",
+        "back": "Dividing responsibilities among multiple people to reduce the risk of error or inappropiate actions."
+    },
+    {
+        "front": "What are the benefits of Role-Based Access Control (RBAC)?",
+        "back": "RBAC enhances efficiency, security, and compliance by assigning permissions based on roles."
+    },
+    {
+        "front": "How does RBAC simplify management in businesses?",
+        "back": "Roles are defined by job functions, and permissions are assigned to roles rather than individuals, reducing complexity."
+    },
+    {
+        "front": "What are the steps in formulating effective security policies?",
+        "back": "Assessment: Identify assets and risks. Development: Draft policies. Implementation: Communicate and integrate policies. Monitoring: Regularly review and update."
+    },
+    {
+        "front": "What are the characteristics of strong security policies?",
+        "back": "Clarity, enforceability, specificity, and alignment with business objectives."
+    },
+    {
+        "front": "What are the roles of firewalls in network security?",
+        "back": "Firewalls act as barriers, filtering traffic based on rules, and protecting networks from unauthorized access."
+    },
+    {
+        "front": "What are Next Generation Firewalls (NGFW)?",
+        "back": "More advanced features like application awareness, integrated intrusion protection and cloud delivered threat intelligence. There are other types such as packet-filtering firewalls, stateful inspection firewalls, proxy firewalls. "
+    },
+    {
+        "front": "What is an IDS?",
+        "back": "An IDS, or Intrusion Detection System, is a security tool that monitors network traffic and devices for suspicious activity or policy violations. It detects potential threats and alerts administrators, helping to protect against cyberattacks. "
+    },
+    {
+        "front": "What are the benefits of IPsec (Internet Protocol Security) in network communication?",
+        "back": "Provides security through data encryption, integrity, and authentication. Used for site-to-site VPNs and secure remote access."
+    },
+    {
+        "front": "What are the key features of SSL/TLS?",
+        "back": "Ensures secure web communications through encryption, authentication, and data integrity."
+    },
+    {
+        "front": "What is SSH and its use in cybersecurity?",
+        "back": "Secure Shell (SSH) provides secure remote login and file transfers using strong encryption."
+    },
+    {
+        "front": "What are symmetric and asymmetric encryption?",
+        "back": "Symmetric: Same key for encryption and decryption. Asymmetric: Uses public and private key pairs."
+    },
+    {
+        "front": "What are brute-force and dictionary attacks?",
+        "back": "Brute-Force: Tries all combinations to guess passwords. Dictionary: Uses common words to guess passwords."
+    },
+    {
+        "front": "What are strategies to prevent brute-force attacks?",
+        "back": "Complex passwords, account lockout mechanisms, two-factor authentication, and regular password changes."
+    },
+    {
+        "front": "What is the role of Intrusion Detection and Prevention Systems (IDPS)?",
+        "back": "Monitors and detects suspicious network activity, protecting against known attack patterns."
+    },
+    {
+        "front": "What are the modes of IPsec (Internet Protocol Security)?",
+        "back": "Transport Mode: Encrypts the message in the data packet. Tunnel Mode: Encrypts the entire data packet."
+    },
+    {
+        "front": "What is the purpose of web filters in security?",
+        "back": "Blocks access to harmful or irrelevant websites, enhancing productivity and protecting against web-based threats."
+    },
+    {
+        "front": "What are the benefits of using Next-Generation Firewalls (NGFW)?",
+        "back": "Provides advanced features like application awareness, integrated intrusion prevention, and cloud-delivered threat intelligence."
+    },
+    {
+        "front": "What are common uses of SSL/TLS in web communication?",
+        "back": "Secures online banking, shopping, and login pages by encrypting data and ensuring integrity."
+    },
+    {
+        "front": "What are the advantages of using SSH?",
+        "back": "Provides strong encryption, versatile applications, and convenience with automated passwordless logins using cryptographic keys."
+    },
+    {
+        "front": "What are key components of strong password policies?",
+        "back": "Require a mix of characters, enforce regular updates, and educate users about security practices."
+    },
+    {
+        "front": "What is the 'Separation of Duties' principle in security?",
+        "back": "Divides responsibilities among multiple people to reduce risks of error or inappropriate actions."
+    },
+    {
+        "front": "What are two major protocols used in the Transport Layer of TCP/IP?",
+        "back": "TCP: Reliable, provides error detection. UDP: Unreliable, faster but without error correction."
+    },
+    {
+        "front": "What is the role of the Internet Layer in the TCP/IP model?",
+        "back": "Routes data packets using IP addresses, determining the best path for data transmission."
+    },
+    {
+        "front": "What are the steps involved in SSL/TLS handshake?",
+        "back": "Establishes a secure connection using public key and symmetric key encryption before data transfer begins."
+    }
+]

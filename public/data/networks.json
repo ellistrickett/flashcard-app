@@ -1,0 +1,74 @@
+[
+    {
+        "front": "What is a computer network?",
+        "back": "A set of computers sharing resources provided by network nodes, communicating via common protocols over interconnections like wired, optical, or wireless methods."
+    },
+    {
+        "front": "What are the types of networks?",
+        "back": "Wide Area Networks (WANs), Local Area Networks (LANs), Personal Area Networks (PANs), Body Area Networks (BANs)."
+    },
+    {
+        "front": "What are the advantages of networks?",
+        "back": "Resource sharing, communication, and information sharing."
+    },
+    {
+        "front": "What are some disadvantages of networks?",
+        "back": "Security: Networks can increase the risk of security breaches and unauthorized access to data. Complexity: They also tend to be more complex to install and maintain compared to standalone systems. Cost: Additionally, networks involve higher costs for hardware, software, and ongoing maintenance."
+    },
+    {
+        "front": "What are the common network topologies?",
+        "back": "Bus, Ring, Star, Mesh, Tree, and Hybrid topologies."
+    },
+    {
+        "front": "What is the difference between packet switching and circuit switching?",
+        "back": "Packet switching divides data into packets for routing, while circuit switching establishes a dedicated channel for the entire communication."
+    },
+    {
+        "front": "What is RIP and how does it work?",
+        "back": "RIP (Routing Information Protocol) is a distance vector routing protocol that uses hop count as the metric to determine the best path to a destination. Hop count refers to the number of routers a packet must traverse. RIP is simple and widely used, especially in smaller to medium-sized networks."
+      },
+    {
+        "front": "What is OSPF and how does it differ from RIP?",
+        "back": "OSPF (Open Shortest Path First) is a link-state routing protocol. Unlike RIP, OSPF shares the entire network topology with other routers. This allows for more accurate and efficient path calculation. OSPF is more complex than RIP but is better suited for larger and more complex networks."
+      },
+    {
+        "front": "What is BGP and what is its role in the internet?",
+        "back": "BGP (Border Gateway Protocol) is an exterior gateway routing protocol used to exchange routing information between different autonomous systems (ASes). ASes are groups of routers under a single administrative control. BGP is essential for the functioning of the internet, enabling communication between networks operated by different organizations."
+      },
+      {
+        "front": "What OSI stand for?",
+        "back": "Open Systems Interconnection"
+    },
+    {
+        "front": "What are the 7 layers of the OSI model?",
+        "back": "Physical, Data Link, Network, Transport, Session, Presentation, Application."
+    },
+    {
+        "front": "What is OSI?",
+        "back": "The OSI (Open Systems Interconnection) model is a conceptual framework that divides network communication into seven distinct layers, each with specific functions, to simplify network understanding and design."
+    },
+      {
+        "front": "What TCP/IP stand for?",
+        "back": "Transmission Control Protocol/Internet Protocol."
+      },
+      {
+        "front": "What are the 4 layers of the TCP/IP model?",
+        "back": "Application, Transport, Internet, Network."
+    },
+    {
+        "front": "What is TCP/IP?",
+        "back": "TCP/IP is a suite of protocols that enables reliable and efficient communication between devices across different networks, forming the foundation of the internet."
+    },
+    {
+        "front": "What is DHCP and its purpose?",
+        "back": "Dynamic Host Configuration Protocol automates the assignment of IP addresses, subnet masks, and other network settings."
+    },
+    {
+        "front": "What are the benefits of DHCP?",
+        "back": "Simplifies network configuration, reduces errors, and allows for efficient IP address management."
+    },
+    {
+        "front": "What is DNS and its purpose?",
+        "back": "Domain Name System translates human-readable domain names into IP addresses."
+    }
+]

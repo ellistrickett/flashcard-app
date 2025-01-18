@@ -1,0 +1,147 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    height: 100vh;
+  }
+  
+  .App {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    margin: 20px 0;
+    color: #4caf50;
+    text-align: center;
+  }
+  
+  select {
+    padding: 10px;
+    font-size: 1rem;
+    margin: 0 auto 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #333;
+    outline: none;
+    cursor: pointer;
+    display: block;
+  }
+  
+  select:focus {
+    border-color: #4caf50;
+  }
+  
+  .main-content {
+    display: flex;
+    flex: 1;
+    gap: 20px;
+    overflow: hidden;
+  }
+  
+  .flashcard-list {
+    flex: 1;
+    max-width: 300px;
+    overflow-y: auto;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .flashcard-item {
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.2s;
+  }
+  
+  .flashcard-item:hover {
+    transform: translateY(-3px);
+    background-color: #e8f5e9;
+  }
+  
+  .flashcard-item.selected {
+    background-color: #4caf50;
+    color: #fff;
+    border-color: #4caf50;
+  }
+  
+  .flashcard-display {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-height: 100%;
+    overflow: hidden;
+  }
+  
+  .flashcard-display p {
+    margin: 10px 0;
+    font-size: 1.2rem;
+  }
+  
+  .flashcard-display p:first-child {
+    font-weight: bold;
+  }
+  
+  .flashcard-display p:last-child {
+    font-size: 1rem;
+    color: #666;
+  }
+  .main-content {
+    display: flex;
+    overflow-y: auto;
+    max-height: 80vh;
+    padding: 10px;
+    }
+    
+    .dark-pattern-content {
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+    max-height: 70vh;
+    }
+    
+    .dark-pattern-content h3 {
+    color: #333;
+    margin-bottom: 15px;
+    }
+    
+    .dark-pattern-content ul {
+    margin-left: 20px;
+    list-style-type: disc;
+    }
+    
+    .dark-pattern-content p {
+    margin-bottom: 15px;
+    }
+
+    .flashcard-text {
+        font-size: 1.5rem;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 10px;
+        }

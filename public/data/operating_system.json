@@ -1,0 +1,247 @@
+[
+    {
+      "front": "What is Booting in computer systems?",
+      "back": "Booting is the process of starting a computer and loading the operating system into memory."
+    },
+    {
+      "front": "What is BIOS and UEFI?",
+      "back": "BIOS (Basic Input/Output System) and UEFI (Unified Extensible Firmware Interface) are both firmware interfaces that initiate the boot process on a computer. They act as the bridge between the hardware and the operating system."
+    },
+    {
+      "front": "What are the main purposes of an Operating System (OS)?",
+      "back": "Resource Management, Abstraction and Interface, Security and Access Control, Communication, System Reliability and Recovery, Application Execution, and Optimization.\n In essence, the operating system's main purpose is to offer a stable, user-friendly environment in which computer hardware and software can interact efficiently and securely."
+    },
+    {
+      "front": "How does an OS manage the processor?",
+      "back": "By scheduling processes on the CPU, determining the order and duration of each task using efficient and fair algorithms."
+    },
+    {
+      "front": "Explain Memory Management in an OS.",
+      "back": "The OS allocates and deallocates RAM for processes, manages virtual memory, paging, and segmentation."
+    },
+    {
+      "front": "What is Device Management in an OS?",
+      "back": "The OS uses device drivers to manage hardware devices, ensuring proper data flow and handling conflicts or priorities."
+    },
+    {
+      "front": "What role does the OS play in File System Management?",
+      "back": "It supervises file operations such as reading, writing, creation, deletion, and manages directories and access permissions."
+    },
+    {
+      "front": "How does the OS provide a User Interface?",
+      "back": "Through command-line interfaces (CLI) or graphical user interfaces (GUI) for user interaction."
+    },
+    {
+      "front": "What is Hardware Abstraction in an OS?",
+      "back": "A layer that allows software to run without addressing hardware specifics, enhancing software portability and development."
+    },
+    {
+      "front": "How does the OS ensure Security and Access Control?",
+      "back": "By implementing protection mechanisms, process isolation, and managing user permissions to secure resources."
+    },
+    {
+      "front": "What is Inter-process Communication (IPC)?",
+      "back": "Mechanisms provided by the OS for processes to communicate and cooperate effectively."
+    },
+    {
+      "front": "Explain Error Detection in an OS.",
+      "back": "The OS monitors for potential errors and can recover from common issues without crashing."
+    },
+    {
+      "front": "What is the function of Backup and Recovery in an OS?",
+      "back": "Utilities that allow data backup and system restoration to a previous state."
+    },
+      {
+        "front": "What is the role of the OS in program loading and execution?",
+        "back": "The OS loads programs into memory and schedules them for execution."
+      },
+      {
+        "front": "How do libraries and APIs (Application Programming Interfaces) provided by the OS help software developers?",
+        "back": "They simplify application development by enabling software to interact with hardware and system resources."
+      },
+      {
+        "front": "How does the OS optimize system performance?",
+        "back": "An operating system optimizes system performance by efficiently managing resources like the CPU, memory, and storage. It achieves this through techniques such as process scheduling, memory management, and I/O handling, ensuring that the system's hardware and software resources are used optimally."
+      },
+      {
+        "front": "What role does the OS play in power management for mobile devices?",
+        "back": "The OS conserves energy by managing sleep cycles and optimizing tasks for minimal power consumption."
+      },   
+    {
+      "front": "What is Dynamic Memory Allocation?",
+      "back": "The process of allocating memory during runtime, typically using the heap."
+    },
+    {
+      "front": "What are the main segments in a process address space?",
+      "back": "The main segments are the Stack, Heap, Global Data, and Code (Text) segments."
+    },
+    {
+      "front": "What is the role of the Stack segment in a process address space?",
+      "back": "The Stack segment stores function call information, local variables, and handles function calls and returns."
+    },
+    {
+      "front": "How does the Heap segment function in a process address space?",
+      "back": "The Heap segment is used for dynamic memory allocation during program execution."
+    },
+    {
+      "front": "What is stored in the Global Data segment?",
+      "back": "The Global Data segment stores global and static variables used by a program."
+    },
+    {
+      "front": "What does the Code (Text) segment contain?",
+      "back": "The Code (Text) segment contains the executable instructions of a program."
+    },
+    {
+      "front": "How does the Stack segment grow in memory?",
+      "back": "The Stack segment typically grows downward, towards lower memory addresses."
+    },
+    {
+      "front": "How does the Heap segment grow in memory?",
+      "back": "The Heap segment grows upward, towards higher memory addresses."
+    },
+    {
+      "front": "What is the logical address range for the Stack segment?",
+      "back": "The Stack segment typically starts near the highest logical address (e.g., 0x1111 1111)."
+    },
+    {
+      "front": "Why is the separation of segments important in memory management?",
+      "back": "Segment separation prevents conflicts between different types of data and allows efficient memory use."
+    },
+    {
+      "front": "What could happen if the Stack and Heap segments grow into each other?",
+      "back": "If the Stack and Heap grow into each other, it can cause memory corruption or a program crash."
+    },    
+    {
+      "front": "What type of segment cannot manipulate variable scope, must know the size of the variables and cannot keep a variable in memory beyod its scope?",
+      "back": "Stack segment."
+    },  
+    {
+      "front": "What type of segment has a dynamic size and can vary during runtime, and is refferred to as dynamic memory allocation?",
+      "back": "Heap segment."
+    }, 
+    {
+      "front": "Describe the First-fit memory allocation strategy.",
+      "back": "Allocates the first memory hole that is big enough, offering faster allocation."
+    },
+    {
+      "front": "What is the Best-fit strategy in memory allocation?",
+      "back": "Allocates the smallest hole that is large enough, reducing leftover memory but slower due to searching."
+    },
+    {
+      "front": "What is the Worst fit in memory allocation?",
+      "back": "Allocate the largest hole available, Must search the entire list of holse. Produces the largest leftover hole."
+    },
+    {
+      "front": "What is virtual memory?",
+      "back": "A memory management technique that gives the illusion of a very large main memory to the operating system and processes."
+    },
+    {
+      "front": "What role does the Operating System (OS) play in virtual memory?",
+      "back": "1. Manages the virtual address space.\n2. Maps virtual addresses to physical addresses."
+    },
+    {
+      "front": "What is the Memory Management Unit (MMU)?",
+      "back": "An integrated circuit or part of the CPU that translates virtual addresses to physical addresses."
+    },
+    {
+      "front": "Why is virtual memory important?",
+      "back": "1. Allows processes to use more memory than physically available.\n2. Simplifies memory allocation and deallocation for the OS.\n3. Enhances security by isolating processes in their own virtual address spaces."
+    },
+    {
+      "front": "What is virtual memory?",
+      "back": "Virtual memory is a memory management technique which give the illusion of a very large main memory. The OS Manages virtual address space and maps those to physical addresses."
+    },
+    {
+      "front": "How does the operating system map virtual addresses to physical addresses?",
+      "back": "Management Memory Unit (MMU) located in either the IC (Integrated Circuit) or part of the CPU (Central Processing Unit)"
+    },
+    {
+      "front": "What are the concepts of virtual memory?",
+      "back": "Swapping, Fragmentation, Paging, Segmentation"
+    },
+    {
+      "front": "What is swapping?",
+      "back": "Swapping is a memory management technique where the operating system temporarily moves inactive processes or parts of processes from main memory (RAM) to secondary storage (like a hard disk)."
+    },
+    {
+      "front": "What is swapping used together with?",
+      "back": "Paging and Segmentation."
+    },
+    {
+      "front": "Why is swapping necessary?",
+      "back": "1. To make more space available in RAM for active processes.\n2. To handle situations where the number of processes exceeds the physical memory capacity."
+    },
+    {
+      "front": "How does swapping work?",
+      "back": "The OS selects an inactive process or a portion of a process in RAM to be swapped out. This process is written to secondary storage. When the process needs to be executed again, it is swapped back into RAM."
+    },
+    {
+      "front": "What are the advantages of swapping?",
+      "back": "1. Allows the system to run more processes than it has physical memory for.\n2. Can improve overall system performance by making more RAM available for active processes."
+    },
+    {
+      "front": "What are the disadvantages of swapping?",
+      "back": "1. Swapping is a relatively slow process, as it involves disk I/O.\n2. Frequent swapping can lead to significant performance degradation.\n3. Can cause wear and tear on the hard disk."
+    },
+    {
+      "front": "When is swapping typically used?",
+      "back": "Swapping is often used in systems with limited RAM or when the demand for memory exceeds the available capacity."
+    },
+    {
+      "front": "What is Dynamic Memory Allocation?",
+      "back": "Dynamic memory allocation is a process where the operating system manages the allocation and deallocation of memory during program execution."
+    },
+    {
+      "front": "Examples of Dynamic Memory Allocation",
+      "back": "When a process finishes executing and releases the memory it was using, it creates free holes in memory. When new processes request memory, the operating system must allocate memory from these available holes."
+    },
+    {
+      "front": "Define External Fragmentation.",
+      "back": "Fragmentation where free memory is split into small, non-contiguous blocks."
+    },
+    {
+      "front": "What is Internal Fragmentation?",
+      "back": "Wasted space within allocated memory blocks due to rounding up to allocation granularity."
+    },
+    {
+      "front": "Explain the concept of Swapping in memory management.",
+      "back": "Swapping moves processes between RAM and disk to manage memory usage effectively."
+    },
+    {
+      "front": "What is Segmentation in memory management?",
+      "back": "Dividing logical memory into variable-sized segments representing code, data, stack, and heap."
+    },
+    {
+      "front": "In thecontext of segmentation, what does every logical address generated by the CPU consist of?",
+      "back": "It is split into 2 parts: The segment number (s) which is used as an index in the segment table. Segment offset (d) which decides the length or limit of the segment."
+    },
+    {
+      "front": "What is paging?",
+      "back": "Paging is a non contigous memory allocation allocating physical memory wherever it is available. Dividing physical memory into frames and logical memory into pages."
+    },    
+    {
+      "front": "In the context of paging, what does every logical address generated by the CPU consist of?",
+      "back": "Page number (p) used as a index into a page table containing the base address (f) of each page in physical memory. Page offset (d) combined with base address (f) to determin the physical address."
+    },
+    {
+      "front": "How does Paging differ from Segmentation?",
+      "back": "Paging divides memory into fixed-size pages, while segmentation uses variable-sized segments."
+    },
+    {
+      "front": "List advantages of Virtual Memory.",
+      "back": "Simplifies memory management, improves security, and allows more memory usage than physically available."
+    },
+    {
+      "front": "What are disadvantages of Virtual Memory?",
+      "back": "Additional resource overhead, potential delays in loading/unloading, and risk of thrashing."
+    },
+    {
+      "front": "What is the role of the Memory Management Unit (MMU)?",
+      "back": "It translates virtual addresses to physical addresses in memory."
+    },
+    {
+      "front": "Describe context switching in the OS.",
+      "back": "Switching the CPU from one process to another, which is resource and time-intensive."
+    }
+  ]
+  
