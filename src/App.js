@@ -1,34 +1,44 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
+import ethicsAndMorality from './data/ethics_and_morality.json';
+import maliciousAttacks from './data/malicious_attacks.json';
+import cyberSecurity from './data/cyber_security.json';
+import operatingSystem from './data/operating_system.json';
+import operatingSystemScheduling from './data/operating_system_scheduling.json';
+import cloudComputing from './data/cloud_computing.json';
+import networks from './data/networks.json';
+import networkTopologies from './data/network_topologies.json';
+// import shiningALightOnDarkPatterns from './data/shining_a_light_on_dark_patterns.json';
+import advancedCybersecurityFlashcards from './data/advanced_cybersecurity_flashcards.json';
 
 const categories = [
-  'Ethics and Morality',
-  'Malicious Attacks',
-  'Cyber Security',
-  'Operating System',
-  'Operating System Scheduling',
-  'Cloud Computing',
-  'Networks',
-  'Network Topologies', 
-  'Shining a light on Dark Patterns', 
-  'Advanced Cybersecurity Flashcards'
+  { name: 'Ethics and Morality', data: ethicsAndMorality },
+  { name: 'Malicious Attacks', data: maliciousAttacks },
+  { name: 'Cyber Security', data: cyberSecurity },
+  { name: 'Operating System', data: operatingSystem },
+  { name: 'Operating System Scheduling', data: operatingSystemScheduling },
+  { name: 'Cloud Computing', data: cloudComputing },
+  { name: 'Networks', data: networks },
+  { name: 'Network Topologies', data: networkTopologies },
+  //{ name: 'Shining a Light on Dark Patterns', data: shiningALightOnDarkPatterns },
+  { name: 'Advanced Cybersecurity Flashcards', data: advancedCybersecurityFlashcards },
 ];
 
 function App() {
   const [flashcards, setFlashcards] = useState([]);
   const [currentIndex, setCurrentIndex] = useState(null);
   const [showingFront, setShowingFront] = useState(true);
-  const [selectedCategory, setSelectedCategory] = useState(categories[0]);
+  const [selectedCategory, setSelectedCategory] = useState(categories[0].name);
 
   useEffect(() => {
-    if (selectedCategory != 'Shining a light on Dark Patterns') {
-        fetch(`/data/${selectedCategory.replace(/ /g, '_')}.json`)
-        .then((response) => response.json())
-        .then((data) => {
-            setFlashcards(data);
-            setCurrentIndex(null);
-            setShowingFront(true);
-        });
+    const selectedCategoryData = categories.find(
+      (category) => category.name === selectedCategory
+    );
+  
+    if (selectedCategoryData) {
+      setFlashcards(selectedCategoryData.data);
+    } else {
+      console.error(`Category "${selectedCategory}" not found.`);
     }
   }, [selectedCategory]);
 
@@ -63,13 +73,15 @@ function App() {
 <div className="App">
   <h2>Interactive Flashcards</h2>
   <select
-    value={selectedCategory}
-    onChange={(e) => setSelectedCategory(e.target.value)}
-  >
-    {categories.map((category) => (
-      <option key={category} value={category}>{category}</option>
-    ))}
-  </select>
+  value={selectedCategory}
+  onChange={(e) => setSelectedCategory(e.target.value)}
+>
+  {categories.map((category) => (
+    <option key={category.name} value={category.name}>
+      {category.name}
+    </option>
+  ))}
+</select>
 
   <div className="main-content">
     <div className="flashcard-list">
