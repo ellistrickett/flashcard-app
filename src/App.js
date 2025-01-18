@@ -10,6 +10,8 @@ import networks from './data/networks.json';
 import networkTopologies from './data/network_topologies.json';
 // import shiningALightOnDarkPatterns from './data/shining_a_light_on_dark_patterns.json';
 import advancedCybersecurityFlashcards from './data/advanced_cybersecurity_flashcards.json';
+import introProgrammingAndDatabase from './data/intro_programming_and_database.json';
+import computerArchitecture from './data/computer_architecture.json';
 
 const categories = [
   { name: 'Ethics and Morality', data: ethicsAndMorality },
@@ -22,6 +24,8 @@ const categories = [
   { name: 'Network Topologies', data: networkTopologies },
   //{ name: 'Shining a Light on Dark Patterns', data: shiningALightOnDarkPatterns },
   { name: 'Advanced Cybersecurity Flashcards', data: advancedCybersecurityFlashcards },
+  { name: 'Intro Programming And Database', data: introProgrammingAndDatabase },
+  { name: 'Computer Architecture', data: computerArchitecture },
 ];
 
 function App() {

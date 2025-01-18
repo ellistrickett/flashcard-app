@@ -1,0 +1,223 @@
+[
+    {
+      "front": "What is a programming paradigm?",
+      "back": "A programming paradigm is a fundamental style or approach to writing computer programs, offering principles and methods for structuring software."
+    },
+    {
+      "front": "Name four common programming paradigms.",
+      "back": "Imperative/Procedural, Object-Oriented (OOP), Functional, Logical/Declarative."
+    },
+    {
+      "front": "Describe the Procedural/Imperative paradigm.",
+      "back": "It emphasizes a step-by-step approach to problem-solving, specifying 'how' to achieve outcomes. Languages include C and Pascal."
+    },
+    {
+      "front": "Give an example of an imperative programming language.",
+      "back": "Python is an example of an imperative programming language."
+    },
+    {
+      "front": "What is the main concept behind Object-Oriented Programming (OOP)?",
+      "back": "OOP bundles data (attributes) and methods into objects, modeling real-world entities with encapsulation, inheritance, and polymorphism."
+    },
+    {
+      "front": "Which languages support Object-Oriented Programming?",
+      "back": "Java, C++, and Python."
+    },
+    {
+      "front": "What is Event-Driven programming commonly used for?",
+      "back": "It is used in GUI applications and real-time systems, responding to user actions or system events."
+    },
+    {
+      "front": "Provide an example of an event-driven action in web development.",
+      "back": "A button click in a webpage triggering a JavaScript alert."
+    },
+    {
+      "front": "What is Functional Programming based on?",
+      "back": "It is based on mathematical function theory, focusing on immutability, first-class functions, and higher-order functions."
+    },
+    {
+      "front": "Name two functional programming languages.",
+      "back": "Haskell and Lisp."
+    },
+    {
+      "front": "Explain the Logical/Declarative programming paradigm.",
+      "back": "It focuses on defining 'what' needs to be achieved rather than 'how' to achieve it. Prolog is an example."
+    },
+    {
+      "front": "What is concurrency in programming?",
+      "back": "Concurrency involves composing independent processes that operate simultaneously."
+    },
+    {
+      "front": "Name two languages designed for concurrent programming.",
+      "back": "Erlang and Go."
+    },
+    {
+      "front": "What is the purpose of a file system?",
+      "back": "A file system organizes data into files and folders and manages storage on devices."
+    },
+    {
+      "front": "List two types of digital storage devices.",
+      "back": "Hard disk drives (HDDs) and Solid-state drives (SSDs)."
+    },
+    {
+      "front": "What is JSON used for?",
+      "back": "JSON is used for storing and exchanging data in a text format using JavaScript object notation."
+    },
+    {
+      "front": "How is data structured in JSON?",
+      "back": "Data is structured in name/value pairs, with objects in curly braces and arrays in square brackets."
+    },
+    {
+      "front": "Compare JSON and XML for data storage.",
+      "back": "JSON is less verbose and better for web applications, while XML is better for complex document representation."
+    },
+    {
+      "front": "What is AJAX used for?",
+      "back": "AJAX updates web pages without reloading, enabling asynchronous data exchange."
+    },
+    {
+      "front": "What are the pros of using CSV for data storage?",
+      "back": "CSV is compact, reduces bandwidth, and is widely supported for import/export."
+    },
+    {
+      "front": "Define encapsulation in OOP.",
+      "back": "Encapsulation is the bundling of data and methods into a single unit, restricting direct access to some components."
+    },
+    {
+      "front": "What is polymorphism in OOP?",
+      "back": "Polymorphism allows objects of different classes to be treated as instances of a parent class."
+    },
+    {
+      "front": "What are Prolog facts?",
+      "back": "Facts in Prolog define relationships, such as parent(mary, john)."
+    },
+    {
+      "front": "Explain the purpose of the NTFS file system.",
+      "back": "NTFS is used on Windows, supporting file permissions, encryption, and journaling."
+    },
+    {
+      "front": "What is a benefit of cloud storage?",
+      "back": "Cloud storage is scalable and accessible from anywhere with an internet connection."
+    },
+    {
+      "front": "Describe inheritance in OOP.",
+      "back": "Inheritance allows new classes to derive properties and behaviors from existing classes."
+    },
+    {
+      "front": "Why is functional programming preferred for certain tasks?",
+      "back": "It avoids changing state and mutable data, leading to more predictable and testable code."
+    },
+    {
+      "front": "What is the MIME type for JSON?",
+      "back": "application/json."
+    },
+    {
+      "front": "Name a disadvantage of using AJAX.",
+      "back": "It increases complexity in software architecture."
+    },
+    {
+      "front": "How does Python handle threading?",
+      "back": "Python uses the threading module to run code concurrently."
+    },
+    {
+        "front": "What is the purpose of digital storage devices?",
+        "back": "Digital storage devices physically store digital data and vary in capacity, performance, and cost."
+      },
+      {
+        "front": "Name four types of digital storage devices.",
+        "back": "Hard disk drives (HDDs), Solid-state drives (SSDs), Optical discs, and Cloud storage."
+      },
+      {
+        "front": "What is the advantage of SSDs over HDDs?",
+        "back": "SSDs are faster than HDDs but are more expensive and have less capacity."
+      },
+      {
+        "front": "Describe cloud storage.",
+        "back": "Cloud storage allows users to access data online, offering convenience and scalability but can be costly."
+      },
+      {
+        "front": "What role does a file system play in data storage?",
+        "back": "A file system organizes data into files and folders and manages data placement on storage devices."
+      },
+      {
+        "front": "List common file systems for different operating systems.",
+        "back": "NTFS (Windows), APFS (macOS), ext4 (Linux), Btrfs (Linux), exFAT (cross-platform removable devices)."
+      },
+      {
+        "front": "When should you use the exFAT file system?",
+        "back": "exFAT is best for removable storage devices used across multiple operating systems."
+      },
+      {
+        "front": "Which file system is recommended for large files and security on Windows?",
+        "back": "NTFS is recommended for handling large files and security on Windows."
+      },
+      {
+        "front": "What advanced features does Btrfs offer?",
+        "back": "Btrfs supports subvolumes, snapshots, and checksumming for data integrity."
+      },
+      {
+        "front": "What is the main difference between NTFS and APFS?",
+        "back": "NTFS is used on Windows, focusing on security and permissions, while APFS is optimized for macOS performance."
+      },
+      {
+        "front": "Why is AJAX important in web development?",
+        "back": "AJAX enables web pages to update without reloading, improving user experience and reducing bandwidth use."
+      },
+      {
+        "front": "Give one disadvantage of AJAX.",
+        "back": "AJAX introduces complexity in software architecture and requires separate data formats like XML."
+      },
+      {
+        "front": "What are CSV files primarily used for?",
+        "back": "CSV files store tabular data in a compact format, ideal for reducing bandwidth and widespread import/export."
+      },
+      {
+        "front": "Name a disadvantage of CSV files.",
+        "back": "CSV does not support hierarchical data and requires synchronized producer/consumer parsers."
+      },
+      {
+        "front": "What is XML best used for?",
+        "back": "XML is ideal for representing complex data structures and document representation."
+      },
+      {
+        "front": "Describe the structure of an XML document.",
+        "back": "XML has a root element, with nested elements, attributes, and requires closing tags."
+      },
+      {
+        "front": "What is JSON primarily used for?",
+        "back": "JSON is used for lightweight data exchange, especially in web applications."
+      },
+      {
+        "front": "How does JSON differ from XML?",
+        "back": "JSON is less verbose, better for data exchange; XML is better for document representation."
+      },
+      {
+        "front": "What is the MIME type for XML and JSON?",
+        "back": "XML: 'application/xml' or 'text/xml'; JSON: 'application/json'."
+      },
+      {
+        "front": "Why is JSON more popular in web development?",
+        "back": "JSON is lightweight, easier to parse, and better supported in browsers."
+      },
+      {
+        "front": "What are DTDs and schemas used for in XML?",
+        "back": "They validate XML data against predefined structures and rules."
+      },
+      {
+        "front": "Which file system is default on Linux?",
+        "back": "ext4 is the default file system on Linux."
+      },
+      {
+        "front": "What makes SSDs faster than HDDs?",
+        "back": "SSDs use flash memory with no moving parts, unlike HDDs that use spinning magnetic platters."
+      },
+      {
+        "front": "Explain the concept of journaling in file systems.",
+        "back": "Journaling tracks changes to files to prevent data corruption during crashes."
+      },
+      {
+        "front": "How does AJAX reduce bandwidth usage?",
+        "back": "AJAX only updates parts of a webpage, avoiding full-page reloads."
+      }
+  ]
+  
