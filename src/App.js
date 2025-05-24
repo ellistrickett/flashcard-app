@@ -1,31 +1,33 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
-import ethicsAndMorality from './data/ethics_and_morality.json';
-import maliciousAttacks from './data/malicious_attacks.json';
-import cyberSecurity from './data/cyber_security.json';
-import operatingSystem from './data/operating_system.json';
-import operatingSystemScheduling from './data/operating_system_scheduling.json';
-import cloudComputing from './data/cloud_computing.json';
-import networks from './data/networks.json';
-import networkTopologies from './data/network_topologies.json';
+import data_management from './data/data_management.json';
+// import ethicsAndMorality from './data/ethics_and_morality.json';
+// import maliciousAttacks from './data/malicious_attacks.json';
+// import cyberSecurity from './data/cyber_security.json';
+// import operatingSystem from './data/operating_system.json';
+// import operatingSystemScheduling from './data/operating_system_scheduling.json';
+// import cloudComputing from './data/cloud_computing.json';
+// import networks from './data/networks.json';
+// import networkTopologies from './data/network_topologies.json';
 // import shiningALightOnDarkPatterns from './data/shining_a_light_on_dark_patterns.json';
-import advancedCybersecurityFlashcards from './data/advanced_cybersecurity_flashcards.json';
-import introProgrammingAndDatabase from './data/intro_programming_and_database.json';
-import computerArchitecture from './data/computer_architecture.json';
+// import advancedCybersecurityFlashcards from './data/advanced_cybersecurity_flashcards.json';
+// import introProgrammingAndDatabase from './data/intro_programming_and_database.json';
+// import computerArchitecture from './data/computer_architecture.json';
 
 const categories = [
-  { name: 'Ethics and Morality', data: ethicsAndMorality },
-  { name: 'Malicious Attacks', data: maliciousAttacks },
-  { name: 'Cyber Security', data: cyberSecurity },
-  { name: 'Operating System', data: operatingSystem },
-  { name: 'Operating System Scheduling', data: operatingSystemScheduling },
-  { name: 'Cloud Computing', data: cloudComputing },
-  { name: 'Networks', data: networks },
-  { name: 'Network Topologies', data: networkTopologies },
+  // { name: 'Ethics and Morality', data: ethicsAndMorality },
+  // { name: 'Malicious Attacks', data: maliciousAttacks },
+  // { name: 'Cyber Security', data: cyberSecurity },
+  // { name: 'Operating System', data: operatingSystem },
+  // { name: 'Operating System Scheduling', data: operatingSystemScheduling },
+  // { name: 'Cloud Computing', data: cloudComputing },
+  // { name: 'Networks', data: networks },
+  // { name: 'Network Topologies', data: networkTopologies },
   //{ name: 'Shining a Light on Dark Patterns', data: shiningALightOnDarkPatterns },
-  { name: 'Advanced Cybersecurity Flashcards', data: advancedCybersecurityFlashcards },
-  { name: 'Intro Programming And Database', data: introProgrammingAndDatabase },
-  { name: 'Computer Architecture', data: computerArchitecture },
+  // { name: 'Advanced Cybersecurity Flashcards', data: advancedCybersecurityFlashcards },
+  // { name: 'Intro Programming And Database', data: introProgrammingAndDatabase },
+  // { name: 'Computer Architecture', data: computerArchitecture },
+  { name: 'Data Management', data: data_management }
 ];
 
 function App() {

@@ -1,0 +1,138 @@
+[
+    {
+        "front": "What does ACID stand for in databases?",
+        "back": "Atomicity, Consistency, Isolation, Durability."
+    },
+    {
+        "front": "What is atomicity in the context of a database transaction?",
+        "back": "It ensures that a transaction is all-or-nothing; either all operations succeed, or none do."
+    },
+    {
+        "front": "What is consistency in the context of a database?",
+        "back": "It ensures that a transaction brings the database from one valid state to another."
+    },
+    {
+        "front": "What is isolation in ACID?",
+        "back": "It ensures that concurrent transactions do not interfere with each other."
+    },
+    {
+        "front": "What is durability in ACID?",
+        "back": "Once a transaction is committed, its changes are permanent even in the case of a system failure."
+    },
+    {
+        "front": "What does BASE stand for in databases?",
+        "back": "Basically Available, Soft state, Eventual consistency."
+    },
+    {
+        "front": "What does 'Basically Available' mean?",
+        "back": "The system remains available for queries even during partial system failures."
+    },
+    {
+        "front": "What does 'Soft state' mean in BASE?",
+        "back": "The system's state may change over time, even without input."
+    },
+    {
+        "front": "What does 'Eventual consistency' mean?",
+        "back": "Data will become consistent over time, not immediately after a transaction."
+    },
+    {
+        "front": "What are the three components of the CAP theorem?",
+        "back": "Consistency, Availability, and Partition tolerance."
+    },
+    {
+        "front": "What does the CAP theorem state?",
+        "back": "In a distributed system, you can only guarantee two out of three: Consistency, Availability, and Partition tolerance."
+    },
+    {
+        "front": "What is the main difference between SQL and NoSQL databases?",
+        "back": "SQL uses ACID properties and has a fixed schema, while NoSQL uses BASE and is more flexible."
+    },
+    {
+        "front": "When should you use SQL over NoSQL?",
+        "back": "When consistency is critical, such as in banking or financial applications."
+    },
+    {
+        "front": "When is NoSQL preferred over SQL?",
+        "back": "When high availability and scalability are more important than immediate consistency, such as in gaming or session data."
+    },
+    {
+        "front": "What does projection mean in relational algebra?",
+        "back": "Selecting specific columns from a table."
+    },
+    {
+        "front": "What does restriction (selection) mean?",
+        "back": "Selecting specific rows from a table based on a condition."
+    },
+    {
+        "front": "What is a union in relational algebra?",
+        "back": "Combining rows from two tables with the same schema."
+    },
+    {
+        "front": "What is an intersection in relational algebra?",
+        "back": "Returning rows that exist in both tables with the same schema."
+    },
+    {
+        "front": "What is a Cartesian product?",
+        "back": "Combining all rows of two tables to form all possible combinations."
+    },
+    {
+        "front": "What is a join in relational algebra?",
+        "back": "Combining rows from two tables based on a related column."
+    },
+    {
+        "front": "What is closure in relational algebra?",
+        "back": "The result of one operation can be used as input for another operation."
+    },
+    {
+        "front": "What is a transaction in a database?",
+        "back": "A unit of work that is treated in a coherent and reliable way."
+    },
+    {
+        "front": "What are the states of a transaction?",
+        "back": "Committed, Aborted, Partially committed, Failed."
+    },
+    {
+        "front": "What is rollback?",
+        "back": "Undoing changes made by a transaction."
+    },
+    {
+        "front": "What is commit?",
+        "back": "Making changes of a transaction permanent."
+    },
+    {
+        "front": "What is concurrency control in databases?",
+        "back": "Techniques to ensure that transactions are executed in a safe manner when run concurrently."
+    },
+    {
+        "front": "What is a deadlock?",
+        "back": "A situation where two or more transactions are waiting for each other to release locks."
+    },
+    {
+        "front": "What is a lock in database systems?",
+        "back": "A mechanism to control concurrent access to data."
+    },
+    {
+        "front": "What is the CIA triad in database security?",
+        "back": "Confidentiality, Integrity, and Availability."
+    },
+    {
+        "front": "What are views in databases?",
+        "back": "Virtual tables representing a subset of data from one or more tables."
+    },
+    {
+        "front": "What are privileges in databases?",
+        "back": "Permissions granted to users to perform operations on the database."
+    },
+    {
+        "front": "What is a schema in a database?",
+        "back": "The structure that defines the organization of data in a database."
+    },
+    {
+        "front": "What is a 'user' in a database context?",
+        "back": "An entity (person or machine) with a username associated with objects in the database."
+    },
+    {
+        "front": "How can redundancy be handled in BASE?",
+        "back": "Through the application layer, often using distributed copies with timestamps."
+    }
+]
