@@ -1,0 +1,119 @@
+[
+    {
+      "front": "Why should you study numeral systems?",
+      "back": "Numeral systems are essential for understanding how numbers are represented and manipulated in computing, such as binary for digital circuits and hexadecimal for memory locations."
+    },
+    {
+      "front": "How is the decimal (Base 10) number 3824 broken down?",
+      "back": "3824 = 3 x 1000 + 8 x 100 + 2 x 10 + 4 x 1."
+    },
+    {
+      "front": "What does each position in a binary number represent?",
+      "back": "Each position represents a power of 2, starting from 2^0 (1s) on the right to 2^n (higher powers) on the left."
+    },
+    {
+      "front": "What are the main uses of hexadecimal notation?",
+      "back": "Hexadecimal is used for describing memory locations, writing machine code, and representing colors in the #RRGGBB format."
+    },
+    {
+      "front": "What are the units of information in computing?",
+      "back": "Bit: binary digit, Nibble: 4 bits, Byte: 8 bits, Word: depends on computer architecture (e.g., 16-bit, 32-bit)."
+    },
+    {
+      "front": "What is ASCII, and how many characters does it include?",
+      "back": "ASCII (American Standard Code for Information Interchange) is a 7-bit encoding system with 128 characters, including letters, digits, and symbols."
+    },
+    {
+      "front": "What is Unicode, and how does it differ from ASCII?",
+      "back": "Unicode is a universal encoding system that includes 143,859 characters for modern and historic scripts, symbols, and emoji. ASCII is a subset of Unicode."
+    },
+    {
+      "front": "What is Boolean algebra, and who developed it?",
+      "back": "Boolean algebra is a branch of algebra dealing with truth values (true/false), developed by George Boole."
+    },
+    {
+      "front": "What is the NAND gate, and why is it important?",
+      "back": "The NAND gate outputs true unless all inputs are true. It is functionally complete, meaning it can implement any Boolean function."
+    },
+    {
+      "front": "What is the primary structure of the decimal numeral system?",
+      "back": "The decimal system is based on powers of 10, with each position representing a power of 10 (e.g., 10^3, 10^2, 10^1, 10^0)."
+    },
+    {
+      "front": "Why is binary important in computing?",
+      "back": "Binary is important because digital circuits in processors use two states (on and off), represented as 1 and 0, to perform computations."
+    },
+    {
+      "front": "How do you convert a binary number to decimal?",
+      "back": "Multiply each binary digit by 2 raised to its position power, starting from 0 on the right, and sum the results."
+    },
+    {
+      "front": "What are the benefits of using hexadecimal over binary?",
+      "back": "Hexadecimal is more compact and user-friendly than binary, making it easier to read and write while preserving the same information."
+    },
+    {
+      "front": "What is the hexadecimal color model?",
+      "back": "The hexadecimal color model represents colors using #RRGGBB, where each color (Red, Green, Blue) is specified with two hexadecimal digits."
+    },
+    {
+      "front": "What is the purpose of a logic gate?",
+      "back": "Logic gates perform basic logical functions and are the building blocks of digital circuits, operating based on input values (true/false)."
+    },
+    {
+      "front": "What are the main Boolean operations?",
+      "back": "NOT (negation), AND (conjunction), and OR (disjunction) are the primary Boolean operations, each with specific precedence rules."
+    },
+    {
+      "front": "What is functional completeness in logic gates?",
+      "back": "Functional completeness means a gate (e.g., NAND or NOR) can be used to implement any Boolean function."
+    },
+    {
+      "front": "What is the role of a full adder in computing?",
+      "back": "A full adder adds binary numbers, accounting for carry values from previous stages, and outputs the sum and carry."
+    },
+    {
+      "front": "How does a half adder differ from a full adder?",
+      "back": "A half adder adds two binary digits and outputs the sum and carry, but it does not account for carry inputs from previous stages."
+    },
+    {
+      "front": "What is the significance of George Boole's work?",
+      "back": "George Boole's work laid the foundation for Boolean algebra, which is essential for modern computing and digital logic design."
+    },
+    {
+      "front": "What are the limitations of ISO/IEC-8859 encoding?",
+      "back": "ISO/IEC-8859 encodings are limited to 256 characters and can conflict when using characters from multiple language systems."
+    },
+    {
+      "front": "What does the XOR gate do?",
+      "back": "The XOR gate outputs true if one and only one of its inputs is true; otherwise, it outputs false."
+    },
+    {
+      "front": "What are the first 128 characters in Unicode?",
+      "back": "The first 128 characters in Unicode are identical to ASCII characters, ensuring backward compatibility."
+    },
+    {
+      "front": "What is the significance of transistors in digital logic?",
+      "back": "Transistors are the fundamental components of digital devices, enabling logic gates to process true/false states."
+    },
+    {
+      "front": "What is the role of the NOT gate in logic circuits?",
+      "back": "The NOT gate inverts its input; it outputs true when the input is false, and vice versa."
+    },
+    {
+      "front": "What is the function of the NOR gate?",
+      "back": "The NOR gate outputs true only when all its inputs are false."
+    },
+    {
+      "front": "How does the full adder handle 4-bit values?",
+      "back": "The full adder processes 4-bit binary numbers by adding corresponding bits and carry values, outputting a sum and final carry."
+    },
+    {
+      "front": "What is the hexadecimal representation of the binary number 1010?",
+      "back": "The hexadecimal representation of the binary number 1010 is 'A'."
+    },
+    {
+      "front": "What is the relationship between Boolean algebra and programming?",
+      "back": "Boolean algebra provides the foundation for conditional statements and logical operations in programming."
+    }
+  ]
+  
